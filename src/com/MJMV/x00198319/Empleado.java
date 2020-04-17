@@ -20,13 +20,12 @@ public abstract class Empleado {
         return Puesto;
     }
 
-<<<<<<< HEAD
     public ArrayList<Documento> getDocumento(){
         
-=======
-    public getDocumento() List<Documento>{
 
->>>>>>> fe2b23ddd19958cfabb9a7a4cd864c3014aec805
+    public List<Documento> getDocumento() {
+
+
     }
 
     public void addDocumento(Documento){

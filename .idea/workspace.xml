@@ -8,6 +8,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
+>>>>>>> 2c736231a92b984b67b2113e8ba90c07da1a2f26
+=======
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
+>>>>>>> fe2b23ddd19958cfabb9a7a4cd864c3014aec805
+>>>>>>> d4837024d960bfd657b4f37389fddf3804144ba3
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ag0tlKCqm0mN4lz1GaBnUcZAZE" />
@@ -20,6 +31,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> fe2b23ddd19958cfabb9a7a4cd864c3014aec805
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+<<<<<<< HEAD
+>>>>>>> 2c736231a92b984b67b2113e8ba90c07da1a2f26
+=======
+>>>>>>> fe2b23ddd19958cfabb9a7a4cd864c3014aec805
+>>>>>>> d4837024d960bfd657b4f37389fddf3804144ba3
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="SvnConfiguration">
@@ -32,6 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <updated>1587138759332</updated>
       <workItem from="1587138764565" duration="2598000" />
       <workItem from="1587141919939" duration="2697000" />
@@ -40,6 +71,22 @@
       <workItem from="1587142163684" duration="1017000" />
       <workItem from="1587143250144" duration="244000" />
 >>>>>>> 255d3cc3fa90c58543f609be6992ae6decb143f1
+=======
+<<<<<<< HEAD
+      <updated>1587142152123</updated>
+      <workItem from="1587142163684" duration="1017000" />
+      <workItem from="1587143250144" duration="244000" />
+=======
+      <updated>1587138759332</updated>
+      <workItem from="1587138764565" duration="2598000" />
+      <workItem from="1587141919939" duration="1069000" />
+>>>>>>> 2c736231a92b984b67b2113e8ba90c07da1a2f26
+=======
+      <updated>1587138759332</updated>
+      <workItem from="1587138764565" duration="2598000" />
+      <workItem from="1587141919939" duration="2697000" />
+>>>>>>> fe2b23ddd19958cfabb9a7a4cd864c3014aec805
+>>>>>>> d4837024d960bfd657b4f37389fddf3804144ba3
     </task>
     <servers />
   </component>
@@ -48,12 +95,28 @@
   </component>
   <component name="WindowStateProjectService">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1587142850230">
+      <screen x="0" y="0" width="1366" height="728" />
+=======
+    <state x="519" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1587142773877">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="519" y="85" key="#com.intellij.ide.util.MemberChooser/62.0.1304.768@62.0.1304.768" timestamp="1587142773877" />
+    <state x="494" y="138" key="FileChooserDialogImpl" timestamp="1587139599134">
+      <screen x="62" y="0" width="1304" height="768" />
+>>>>>>> 2c736231a92b984b67b2113e8ba90c07da1a2f26
+=======
+>>>>>>> d4837024d960bfd657b4f37389fddf3804144ba3
     <state x="519" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1587143256494">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="519" y="85" key="#com.intellij.ide.util.MemberChooser/62.0.1304.768@62.0.1304.768" timestamp="1587143256494" />
     <state x="494" y="138" key="FileChooserDialogImpl" timestamp="1587143793841">
       <screen x="62" y="0" width="1304" height="768" />
+>>>>>>> fe2b23ddd19958cfabb9a7a4cd864c3014aec805
     </state>
     <state x="494" y="138" key="FileChooserDialogImpl/62.0.1304.768@62.0.1304.768" timestamp="1587143793841" />
     <state x="215" y="26" key="SettingsEditor" timestamp="1587141027568">
