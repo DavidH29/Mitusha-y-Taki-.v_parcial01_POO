@@ -19,6 +19,7 @@ public class Empresa {
     }
 
     public void addEmpleado(Empleado x){
+        
 
     }
 
