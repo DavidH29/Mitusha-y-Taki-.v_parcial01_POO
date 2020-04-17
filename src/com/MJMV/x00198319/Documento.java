@@ -15,4 +15,5 @@ public class Documento {
     public String getNumero() {
         return Numero;
     }
+
 }

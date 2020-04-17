@@ -19,7 +19,7 @@ public abstract class Empleado {
     }
 
     public getDocumento() List<Documento>{
-        
+
     }
 
     public void addDocumento(Documento){
