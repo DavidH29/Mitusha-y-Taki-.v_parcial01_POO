@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e27d1a96-3740-41c9-8da5-60fc483931b5" name="Default Changelist" comment="" />
+    <list default="true" id="4b15c70b-0337-4a23-8e0a-751fab6733d9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1afu2DidniHSIhrqYGZCcyC8f4X" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1ag0tlKCqm0mN4lz1GaBnUcZAZE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,39 +20,26 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.MJMV.x00198319.Main" />
-      <module name="Parcial" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e27d1a96-3740-41c9-8da5-60fc483931b5" name="Default Changelist" comment="" />
-      <created>1587138759332</created>
+      <changelist id="4b15c70b-0337-4a23-8e0a-751fab6733d9" name="Default Changelist" comment="" />
+      <created>1587142152123</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1587138759332</updated>
       <workItem from="1587138764565" duration="2598000" />
       <workItem from="1587141919939" duration="2697000" />
+=======
+      <updated>1587142152123</updated>
+      <workItem from="1587142163684" duration="1017000" />
+      <workItem from="1587143250144" duration="244000" />
+>>>>>>> 255d3cc3fa90c58543f609be6992ae6decb143f1
     </task>
     <servers />
   </component>
@@ -69,6 +47,7 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state x="519" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1587143256494">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
@@ -85,5 +64,19 @@
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="96" y="4" key="new project wizard/62.0.1304.768@62.0.1304.768" timestamp="1587143795775" />
+=======
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1587142850230">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587142850230" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1587142816189">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587142816189" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1587143250947">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587143250947" />
+>>>>>>> 255d3cc3fa90c58543f609be6992ae6decb143f1
   </component>
 </project>
