@@ -1,11 +1,11 @@
 package com.MJMV.x00198319;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public abstract class Empleado {
     protected String Nombre;
     protected String Puesto;
-    protected ArrayList<Documento>;
+    protected List<Documento>;
     protected double Salario;
 
     public  Empleado(String nombre, String puesto, double salario){
@@ -20,7 +20,17 @@ public abstract class Empleado {
         return Puesto;
     }
 
-    public ArrayList<Documento> getDocumento(){
+    public List<Documento> getDocumento(){
+
+    }
+
+    public List<Documento> getDocumento(){
+
+    }
+
+    public List<Documento> getDocumento(){
+
+        }
         
 
     public List<Documento> getDocumento() {
