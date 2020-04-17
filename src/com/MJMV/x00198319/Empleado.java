@@ -6,15 +6,12 @@ public abstract class Empleado {
     protected String Nombre;
     protected String Puesto;
     protected List<Documento>;
-    private String Hola;
     protected double Salario;
 
-    public  Empleado(String nombre, String puesto, double salario){
-        this.Nombre= nombre;
-        this.Puesto=puesto;
-        this.Salario=salario;
-
-
+    public Empleado(String nombre, String puesto, double salario) {
+        Nombre = nombre;
+        Puesto = puesto;
+        Salario = salario;
     }
 
     public String getNombre() {
