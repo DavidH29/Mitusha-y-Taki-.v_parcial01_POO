@@ -23,20 +23,7 @@ public abstract class Empleado {
     }
 
     public List<Documento> getDocumento(){
-
-    }
-
-    public List<Documento> getDocumento(){
-
-    }
-
-    public List<Documento> getDocumento(){
-
-        }
-        
-
-    public List<Documento> getDocumento() {
-
+        return Documento;
 
     }
 
