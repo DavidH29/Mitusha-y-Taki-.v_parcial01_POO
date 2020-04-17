@@ -5,6 +5,7 @@ public class ServivioProfesional extends Empleado {
 
     public ServivioProfesional(String nombre,String numero, double salario, int mesesContrato){
 
+
     }
 
     public int getMesesContrato() {
@@ -14,4 +15,5 @@ public class ServivioProfesional extends Empleado {
     public void setMesesContrato(int mesesContrato) {
         this.mesesContrato = mesesContrato;
     }
+
 }
