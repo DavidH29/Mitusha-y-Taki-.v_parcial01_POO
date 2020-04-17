@@ -1,10 +1,10 @@
 package com.MJMV.x00198319;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public class Empresa {
     private String nombre;
-    private ArrayList<Empleado> planilla;
+    private List<Empleado> planilla;
 
     public Empresa(String nombre) {
         this.nombre = nombre;
@@ -14,7 +14,7 @@ public class Empresa {
         return nombre;
     }
 
-    public ArrayList<Empleado> getPlanilla() {
+    public List<Empleado> getPlanilla() {
         return planilla;
     }
 
