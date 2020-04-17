@@ -14,11 +14,8 @@ public static class CalculadoraImpuestos {
 
     }
 
-    public String mostrarTotales(){
+    public String mostrarTotales() {
 
     }
-
-
-    
 
 }
