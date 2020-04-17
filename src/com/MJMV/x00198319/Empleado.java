@@ -9,6 +9,9 @@ public abstract class Empleado {
     protected double Salario;
 
     public  Empleado(String nombre, String puesto, double salario){
+        this.Nombre= nombre;
+        this.Puesto=puesto;
+        this.Salario=salario;
 
     }
 
