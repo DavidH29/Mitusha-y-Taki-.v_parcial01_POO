@@ -24,17 +24,21 @@ public class Empresa {
         planilla.add(x);
     }
 
-    public void quitEmpleado(String s){
+    public void quitEmpleado(Empresa empresa, String s){
+        JOptionPane.showMessageDialog(null, "\n......... Eliminando Empleado  ..........");
 
-        for(int i = 0; i < planilla.size(); i++){
-            if(planilla.get(i).Nombre == s){
-                planilla.remove(i);
-                JOptionPane.showMessageDialog(null, "Empleado despedido");
-                return;
+       empresa.planilla.forEach(b-> System.out.println(b.toString()));
+        String eliminarA = s;
+        int pos=0;
+
+        for (int i =0; i < empresa.planilla.size(); i++){
+            if (empresa.planilla.get(i).Nombre.equals(eliminarA)){
+                pos = i;
             }
-        }
 
-        JOptionPane.showMessageDialog(null, "Empleado inexistente");
+        }
+        empresa.planilla.remove(pos);
+        JOptionPane.showMessageDialog(null, "\n Despedido :c \n");
     }
 
     @Override

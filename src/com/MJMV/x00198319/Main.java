@@ -57,11 +57,14 @@ public class Main {
             x.addDocumento(doc);
             empresa.addEmpleado(x);
         }
-        else if (plaza.equalsIgnoreCase("Servicio profesional")|| plaza.equalsIgnoreCase("Servicio")){
+        else if (plaza.equalsIgnoreCase("Servicio profesional")|| plaza.equalsIgnoreCase(
+                "Servicio")){
             String nombre1 = JOptionPane.showInputDialog(null, "Nombre del servicio: ");
             String puesto1 = JOptionPane.showInputDialog(null, "Funcion que desempeña: ");
-            double salario1 = Double.parseDouble(JOptionPane.showInputDialog(null, "Salario $"));
-            int contrato = Integer.parseInt(JOptionPane.showInputDialog(null, "Meses de contrato: "));
+            double salario1 = Double.parseDouble(JOptionPane.showInputDialog(null, "Salario " +
+                    "$"));
+            int contrato = Integer.parseInt(JOptionPane.showInputDialog(null, "Meses " +
+                    "de contrato: "));
             String NombreDocumento1 = JOptionPane.showInputDialog(null, "Documento: ");
             String NumeroDocumento1 = JOptionPane.showInputDialog(null, "No. de documento: ");
             ServicioProfesional x = new ServicioProfesional(nombre1, puesto1, salario1, contrato);
@@ -71,25 +74,14 @@ public class Main {
         }
     }
 
-    static void Despedir (){
-        String NombreDespedir = JOptionPane.showInputDialog(null, "Empleado o Servicio a despedir:");
-        int cont = 0;
-        JOptionPane.showMessageDialog(null, "\nEliminando Empleado ..........");
-
-        empresa.getPlanilla().forEach(b-> System.out.println(b.toString()));
-        String eliminarA = NombreDespedir;
-        int pos=0;
-        for (int i =0; i < empresa.getPlanilla().size(); i++){
-            if (empresa.getPlanilla().get(i).equals(eliminarA)){
-                pos = i;
-            }
-        }
-        empresa.getPlanilla().remove(pos);
-        JOptionPane.showMessageDialog(null, "\n Eliminado :c \n");
-
+    static void Despedir () {
+        String NombreDespedir = JOptionPane.showInputDialog(null, "Empleado o " +
+                "servicio a despedir: ");
+        empresa.quitEmpleado(empresa, NombreDespedir);
     }
 
     static void Mostrar(){
-        empresa.getPlanilla().forEach(b-> JOptionPane.showMessageDialog(null, b.toString()));
+        empresa.getPlanilla().forEach(b-> JOptionPane.showMessageDialog(null,
+                b.toString()));
     }
 }
