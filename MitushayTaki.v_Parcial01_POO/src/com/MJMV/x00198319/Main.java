@@ -1,5 +1,8 @@
 package com.MJMV.x00198319;
 
+//Parcial 01
+//Elaborado por Josue David Hurtado Argueta 00156919 y María José Mendoza Villicaña 00198319
+
 import javax.swing.*;
 
 public class Main {
