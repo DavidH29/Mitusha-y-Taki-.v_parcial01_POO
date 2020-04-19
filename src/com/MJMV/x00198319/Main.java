@@ -74,35 +74,22 @@ public class Main {
     static void Despedir (){
         String NombreDespedir = JOptionPane.showInputDialog(null, "Empleado o Servicio a despedir:");
         int cont = 0;
-        for(int i = 0; i < empresa.getPlanilla().size(); i++){
-            if(empresa.getPlanilla().get(i).Nombre == NombreDespedir){
-                cont++;
+        JOptionPane.showMessageDialog(null, "\nEliminando Empleado ..........");
+
+        empresa.getPlanilla().forEach(b-> System.out.println(b.toString()));
+        String eliminarA = NombreDespedir;
+        int pos=0;
+        for (int i =0; i < empresa.getPlanilla().size(); i++){
+            if (empresa.getPlanilla().get(i).equals(eliminarA)){
+                pos = i;
             }
         }
-        if(cont > 1){
-            JOptionPane.showMessageDialog(null, "Existen " + cont + " empleados con el mismo nombre");
-            String NumeroDespedir = JOptionPane.showInputDialog(null, "Indique un numero de documento");
-            for(int i = 0; i < empresa.getPlanilla().size(); i++){
-                for(int j = 0; j < empresa.getPlanilla().get(i).documentos.size(); j++){
-                    if(empresa.getPlanilla().get(i).documentos.get(j).getNumero() == NumeroDespedir){
-                        empresa.getPlanilla().remove(i);
-                        JOptionPane.showMessageDialog(null, "Empleado despedido :c");
-                    }
-                }
-            }
-        }
-        else {
-            for(int i = 0; i < empresa.getPlanilla().size(); i++){
-                if(NombreDespedir == empresa.getPlanilla().get(i).Nombre)
-                    empresa.getPlanilla().remove(i);
-                    JOptionPane.showMessageDialog(null, "Empleado despedido :c");
-            }
-        }
+        empresa.getPlanilla().remove(pos);
+        JOptionPane.showMessageDialog(null, "\n Eliminado :c \n");
+
     }
 
     static void Mostrar(){
         empresa.getPlanilla().forEach(b-> JOptionPane.showMessageDialog(null, b.toString()));
     }
-
-
 }
