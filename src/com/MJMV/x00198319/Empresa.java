@@ -1,22 +1,22 @@
-package com.MJMV.x00198319;
+package com.JDHA.x00156919;
 
 import javax.swing.*;
-import java.util.List;
-import java.lang.String;
+import java.util.ArrayList;
 
 public class Empresa {
     private String nombre;
-    private List <Empleado> planilla;
+    private ArrayList <Empleado> planilla;
 
     public Empresa(String nombre) {
         this.nombre = nombre;
+        planilla = new ArrayList<>();
     }
 
     public String getNombre() {
         return nombre;
     }
 
-    public List<Empleado> getPlanilla() {
+    public ArrayList<Empleado> getPlanilla() {
         return planilla;
     }
 
