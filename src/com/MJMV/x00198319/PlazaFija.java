@@ -1,6 +1,6 @@
 package com.MJMV.x00198319;
 
-public class PlazaFija extends Empleado{
+public class PlazaFija extends Empleado {
     private int extension;
 
     public PlazaFija(String nombre, String puesto, double salario, int extension) {
@@ -16,3 +16,7 @@ public class PlazaFija extends Empleado{
         this.extension = extension;
     }
 }
+
+
+
+
