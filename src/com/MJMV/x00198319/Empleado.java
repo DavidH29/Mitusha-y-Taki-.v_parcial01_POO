@@ -52,8 +52,8 @@ public abstract class Empleado {
 
     @Override
     public String toString() {
-        return  "\nNombre: " + Nombre + '\'' +
-                "\nPuesto: " + Puesto + '\'' +
+        return  "\nNombre: " + Nombre +
+                "\nPuesto: " + Puesto +
                 "\nDocumentos:" + documentos +
                 "\nSalario: " + Salario ;
     }

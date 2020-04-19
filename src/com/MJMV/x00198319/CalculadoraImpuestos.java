@@ -37,6 +37,7 @@ public final class CalculadoraImpuestos {
 
     public String mostrarTotales() {
         double DescuentoTotal = TotalAFP + TotalISS + TotalRenta;
-        return "Total de renta: " + TotalRenta + "/n" + "Total ISSS: " + TotalISS + "/n" + "Total AFP: " + TotalAFP + "/n" + "Descuento total: " + DescuentoTotal;
+        return "Total de renta: " + TotalRenta + "/n" + "Total ISSS: " + TotalISS + "/n" + "Total AFP: " + TotalAFP +
+                "/n" + "Descuento total: " + DescuentoTotal;
     }
 }

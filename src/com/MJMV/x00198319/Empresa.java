@@ -27,7 +27,7 @@ public class Empresa {
     public void quitEmpleado(Empresa empresa, String s){
         JOptionPane.showMessageDialog(null, "\n......... Eliminando Empleado  ..........");
 
-       empresa.planilla.forEach(b-> System.out.println(b.toString()));
+       empresa.planilla.forEach(b-> JOptionPane.showMessageDialog(null, b.toString()));
         String eliminarA = s;
         int pos=0;
 
