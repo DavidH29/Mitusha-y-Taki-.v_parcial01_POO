@@ -4,8 +4,9 @@ public class Documento {
     private String Nombre;
     private String Numero;
 
-    public Documento(String nombre, String numero){
-
+    public Documento(String nombre, String numero) {
+        Nombre = nombre;
+        Numero = numero;
     }
 
     public String getNombre() {
@@ -16,4 +17,10 @@ public class Documento {
         return Numero;
     }
 
+    @Override
+    public String toString() {
+        return
+                "\nTipo de documento:'" + Nombre + '\'' +
+                "\nNumero:'" + Numero ;
+    }
 }
