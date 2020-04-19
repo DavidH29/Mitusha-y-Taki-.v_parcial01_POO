@@ -36,4 +36,11 @@ public class Empresa {
 
        JOptionPane.showMessageDialog(null, "Empleado inexistente");
     }
+
+    @Override
+    public String toString() {
+        return "Empresa{" +
+                "planilla=" + planilla +
+                '}';
+    }
 }
